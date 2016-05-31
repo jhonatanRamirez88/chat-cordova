@@ -4,12 +4,12 @@
         <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
         <param name="onload" value="true" />
     </feature>
-    <name>QB Chat</name>
+    <name>Chat tutoria</name>
     <description>
-        Apache Cordova simple code sample for Web XMPP Chat (via QuickBlox SDK + API)
+        Codigo de chat uaem tutoria
     </description>
     <author email="assist@quickblox.com" href="https://quickblox.com">
-       QuickBlox Team
+       UAEM
     </author>
     <content src="index.html" />
     <access origin="*" />

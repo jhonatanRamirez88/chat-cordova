@@ -108,7 +108,7 @@ function showOrUpdateDialogInUI(itemRes, updateHtml) {
   if (dialogType == 3) {
     opponentId    = QB.chat.helpers.getRecipientId(itemRes.occupants_ids, currentUser.id);
     opponentLogin = getUserLoginById(opponentId);
-    dialogName    = 'Conversando con ' + opponentLogin;
+    dialogName    = 'Conversando con: ' + opponentLogin;
   }
 
   if (updateHtml === true) {
